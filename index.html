@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">  
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">   -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
@@ -61,14 +62,14 @@
     </header>
 
     <main class="l-main bd-container">
-        <div class="resume">
+        <div class="resume" id="area-cv">
             <div class="resume__left">
                 <section class="home" id="home">
                     <div class="home__container section bd-grid">
                         <div class="home__data bd-grid">
                             <img src="./icons/foto.jpg" alt="" class="home__img">
                             <h1 class="home__title">Daniel Vera Acero</h1>
-                            <h3 class="hoem__profession">Front-end Web Developer</h3>
+                            <h3 class="home__profession">Front-end Web Developer</h3>
                             <div>
                                 <a download="" href="" class="home__button-movil">Download</a>
                             </div>
@@ -107,7 +108,7 @@
                 <section class="profile section" id="profile">
                     <h2 class="section-title">Profile</h2>
                     <p class="profile__description">
-                        Lidero grupos de trabajo llevándolos a cumplir las expectativas definidas. He adquirido experiencia y conocimiento en diferente s softwares especializados que me permiten migrar fácilmente al que se requiera por la organización. Tengo facilidad para invest igar y entender nuevos conceptos y aplicarlos para la solución óptima de diferentes problemas de ingeniería. Me gusta tomar el tiempo necesario para entregar los trabajos de forma ordenada y fácil de entender
+                        Lidero grupos de trabajo llevándolos a cumplir las expectativas definidas. He adquirido experiencia y conocimiento en diferente s softwares especializados que me permiten migrar fácilmente al que se requiera por la organización.
                     </p>
                 </section>
 
@@ -150,7 +151,7 @@
                                 <span class="skills__circle"></span> Css
                             </li>
                             <li class="skills__name">
-                                <span class="skills__circle"></span> JavaScript & ECMAScript
+                                <span class="skills__circle"></span> JavaScript
                             </li>
                             <li class="skills__name">
                                 <span class="skills__circle"></span> Git & GitHub
@@ -164,7 +165,7 @@
                                 <span class="skills__circle"></span> Css
                             </li>
                             <li class="skills__name">
-                                <span class="skills__circle"></span> JavaScript & ECMAScript
+                                <span class="skills__circle"></span> JavaScript
                             </li>
                             <li class="skills__name">
                                 <span class="skills__circle"></span> Git & GitHub
@@ -263,7 +264,7 @@
                     <div class="interests__container bd-grid">
                         <div class="interests__content">
                             <i class='bx bx-headphone interests__icon' ></i>
-                            <span class="interests__name">Music</span>
+                            <span class="interests__name">Musica</span>
                         </div>
                         <div class="interests__content">
                             <i class='bx bxs-plane-alt interests__icon' ></i>
@@ -271,11 +272,11 @@
                         </div>
                         <div class="interests__content">
                             <i class='bx bx-book-reader interests__icon' ></i>
-                            <span class="interests__name">Read</span>
+                            <span class="interests__name">Leer</span>
                         </div>
                         <div class="interests__content">
                             <i class='bx bx-game interests__icon' ></i>
-                            <span class="interests__name">Videojuegos</span>
+                            <span class="interests__name">Games</span>
                         </div>
                     </div>
                 </section>
@@ -288,6 +289,8 @@
     <a href="#" class="scrolltop" id="scroll-top">
         <i class='bx bx-up-arrow-alt scrolltop__icon'></i>
     </a>
+
+    <script src="./html2pdf.bundle.min.js"></script>
 
     <script src="./main.js"></script>
 </body>
