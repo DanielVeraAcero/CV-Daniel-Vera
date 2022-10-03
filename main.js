@@ -94,7 +94,7 @@ let areaCv = document.getElementById('area-cv')
 let resumeButton = document.getElementById('resume-button')
 
 let opt = {
-    margin:       1,
+    margin:       0,
     filename:     'myResume.pdf',
     image:        { type: 'jpeg', quality: 0.98 },
     html2canvas:  { scale: 4 },
@@ -108,5 +108,5 @@ function generateResume() {
 resumeButton.addEventListener('click',() => {
     scaleCv()
     generateResume()
-    setTimeout(removeScale, 5000)
+    setTimeout(removeScale, 3000)
 })
